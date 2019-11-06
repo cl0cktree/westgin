@@ -1,132 +1,90 @@
-<!DOCTYPE HTML5>
-<html class="no-js" lang="ko">
+<!DOCTYPE HTML>
+<html>
 	<head>
-		<title>안녕하세요.  열정커피예요.</title>
+		<title>웨스트진</title>
 		<meta charset="utf-8">
-		<link rel = "stylesheet" type = "text/css" href="css/main.css">
-		<link rel="stylesheet" href="css/normalize.css">
-
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/index_style.css">
 		<style type="text/css">
 		</style>
-		<script type="text/javascript" src="js/jquery-1.3.2.min.js">
+		<script type="text/javascript">
+			window.onload=function(){//원도우가 로드 될 시 함수 호출-이 구문이 없으면 따로 함수를 호출하는 조건을 만들어야 함.함수호출 구문 없을 시 동작불가.
+			var pic = document.getElementById("mp");
+			var a=1;
+			setInterval(function(){
+				a = a%6;
+				a++;
+				pic.src="images/index_0"+ a +".jpg"},3000);				
+			}
+			function submenu(sub_v)	{
+				event.preventDefault();
+				sub_v.children[1].style.display=(sub_v.children[1].style.display== '' ? 'block' : '')
+			}
 		</script>
- 		<script type="text/javascript" src="js/main.js">
-		</script>
- 		<script type="text/javascript" src="js/main2.js">
-		</script>
-		<script src="./js/vendor/modernizr.custom.min.js"></script>
-		<script src="./js/vendor/jquery-1.10.2.min.js"></script>
-		<script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+		
 	</head>
 	<body>
-		<div class="all-wrap">
+		<div id="wrap" class="">
 		<header>
-			
-			<div id="" class="topall">
-				<h1>
-					<a href="index.html"><img src="images/logo2.png" width="104.3" height="92.4" border="0" alt=""> </a>
-				</h1>
-				　　
-				<nav>
-					<div class="menu">
-						<a href="sub/sub1.html"><div id="tbtn1" class="tbtn">회사소개</div><div id="tbtnf1" class="tbtnf"></div></a>
-						<a href="sub/sub2.html"><div id="tbtn2" class="tbtn">메뉴소개</div><div id="tbtnf2" class="tbtnf"></div></a>　　　　　　
-						<a href="sub/sub3.html"><div id="tbtn3" class="tbtn">매장안내</div><div id="tbtnf3" class="tbtnf"></div></a>　　　　　　
-						<a href="sub/sub4.html"><div id="tbtn4" class="tbtn">가맹안내</div><div id="tbtnf4" class="tbtnf"></div></a>　　　　　　
-						<a href="sub/sub5.html"><div id="tbtn5" class="tbtn">고객게시판</div><div id="tbtnf5" class="tbtnf"></div></a>
-					</div>
-				</nav>
-				<div class="stroke">
-				</div>
-			</div>
+			<nav>
+				<a href="index.html"><img src="images/logo.gif" width="142" height="78" border="0" alt="westgin logo" ></a>
+				<ul class="navi">
+					<li><a href="#" onclick="submenu(this.parentElement)">웨스트진</a>
+						<ul>
+							<li><a href="sub1.html">웨스트진 소개</a></li>
+							<li><a href="sub2.html">웨스트진 연혁</a></li>
+							<li><a href="sub3.html">인재채용</a></li>
+							<li><a href="sub4.html">특허현황</a></li>
+							<li><a href="sub5.html">오시는길</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#" onclick="submenu(this.parentElement)">매장안내</a>
+						<ul>
+							<li><a href="store1.html">일산본점</a></li>
+							<li><a href="store2.html">풍동점</a></li>
+							<li><a href="store3.html">목동 8단지</a></li>
+							<li><a href="store4.html">목동 1단지</a></li>
+							<li><a href="store5.html">식사점</a></li>
+							<li><a href="store6.html">김포점</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#" onclick="submenu(this.parentElement)">고객센터</a>
+						<ul>
+							<li><a href="notice.html">공지사항 & 뉴스</a></li>
+						</ul>
+					</li>
+					<li><a href="news.html">언론속의 웨스트진</a></li>
+				</ul>
+			</nav>
 		</header>
-		
+		<div id="sub_wrap" class="">
 		<section>
-			<article id="move">
-				<div id="" class="slideshow">
-					<div id="" class="slideshow-slides">
-					<a href="#" class="slide" id="slide-1"><img src="images/new/main_9.jpg" width="1200" height="400" border="0" alt=""></a>
-					<a href="#" class="slide" id="slide-2"><img src="images/main/main_okok0.png" width="1200" height="400" border="0" alt=""></a>
-					<a href="#" class="slide" id="slide-3"><img src="images/main/main_okok2_0.png" width="1200" height="400" border="0" alt=""></a>
-					<a href="#" class="slide" id="slide-4"><img src="images/main/main_okok3-0-3.png" width="1200" height="400" border="0" alt=""></a>
-					<a href="#" class="slide" id="slide-5"><img src="images/main/main_19.png" width="1200" height="400" border="0" alt=""></a>
-				</div>		
-<!-- 				<div class="slideshow-nav">
-					<a href="#" class="prev">Prev</a>
-					<a href="#" class="next">Next</a>
-				</div>
-				<div class="slideshow-indicator"></div>
-				</div> -->
-				<div id="" class="filter"></div>
-			</article>
-<!-- 			<script type="text/javascript">
-			var showImg, nextImg ;
-			function fadeInOut(){
-					
-				showImg = $('#move img:eq(0)');
-				nextImg = $('#move img:eq(1)');
-				nextImg.addClass('first');
-				nextImg.css('opacity','0').animate({'opacity':'1'},500,
-				function(){
-				$('#move').append(showImg);
-				showImg.removeClass('first');});
-					
-					};
-			
-			var timer = setInterval('fadeInOut()','3000');
-			
-			$("article#move").hover(
-				function(){
-					clearInterval(timer)
-			},function(){
-					timer = setInterval('fadeInOut()','2000');
-					});
-			
-			//
-			</script> -->
 			<article>
-				<div id="" class="intro_btn1">
-					<ul>
-						<li><a href="#">열정커피 홈페이지가 리뉴얼 되었습니다.</a></li>
-						<li><a href="#">2016.07.15. 열정커피 쿨썸머 이벤트~!</a></li>
-						<li><a href="#">열정커피 쿠폰북 실시?!</a></li>
-						<li><a href="#">열정커피 망우역점 이벤트</a></li>
-					</ul>
-				</div>
-				
-				<div id="" class="intro_btn2">
-						<div id="" class="sum1">
-							<img src="images/main/summer1.png" width="253" height="87" border="0" alt="">
-						</div>
-						<div id="" class="sum2">
-							<img src="images/main/summer2.png" width="77" height="89" border="0" alt="">
-						</div>
-					<a href="sub/sub6.html">
-						<div id="sump" class=""></div>
-					</a>
-				</div>
-				
-				<div id="" class="intro_btn3">
-					<div id="" class="star1">
-						<img src="images/main/coupon2.png" width="253" height="87" border="0" alt="">
-					</div>
-					<div id="" class="star2">
-						<img src="images/main/coupon2-1.png" width="17" height="18" border="0" alt="">
-					</div>
-					<a href="sub/sub7.html">
-						<div id="" class="star"></div>
-					</a>
-				</div>
+				<img src="images/index_01.jpg" width="750" height="1000" border="0" alt="" id="mp">
 			</article>
 		</section>
-		<footer>
+		<aside>
+			<br>
+			<div class="top_menu">
+				<a href="index.html">HOME</a>&nbsp&nbsp&nbsp<a href="#">SITEMAP</a>&nbsp&nbsp&nbsp<a href="mailto:distroy_u@naver.com">CONTACT US</a></div>
+			<h3>ABOUT WESTGIN</h3>
+			<img src="images/about01.jpg" width="196" height="106" border="0" alt="웨스트진 전경">
+			<h3>PRESS/NEWS</h3>
 			
-				<div class="stroke1"></div>
-				<div class="fooo1"><a href="index.html"><img src="images/foo.jpg" alt="" /></a></div>
-				
-				<address class="fooo">서울특별시 중랑구 상봉동 72 망우역 내 1층 열정커피 TEL:  010-4175-0532　　FAX: 02-2226-3325　　사업자등록번호: 120-88-20201　상표출원번호: 41-2014-0047866 Copyright 2014 sinchangfood All Rights Resered</address>
-			
-		</footer>
-	</div>
+			<div class="new0">
+				<a href="#">부천점 10월 16일부터...</a><br>
+				<a href="#">웨스트진 베이커리 홈페이지 오픈...</a>
+			</div>
+
+			<h3>TODAY WESTGIN STORE</h3>
+			<img src="images/store01.jpg" width="196" height="106" border="0" alt="">
+			<img src="images/store02.jpg" width="196" height="106" border="0" alt="">
+			copyright(c)2011 westgin bakery.<br>
+			All rights reserved.
+		</aside>
+		</div>
+		</div>
 	</body>
 </html>
