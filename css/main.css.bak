@@ -1,0 +1,515 @@
+@charset "UTF-8";
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@font-face{
+	font-family:'Nanum Gothic','NanumGothic';
+	src:url('/fonts/NanumGothic.eot');
+	src:url('/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),url('/fonts/NanumGothic.woff') format('woff'),url('/fonts/NanumGothic.ttf') format('truetype'),url('/fonts/NanumGothic.svg#NanumGothic') format('svg');
+	src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+}
+
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	background:#fff;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	position:relative;
+	overflow:auto;
+}
+
+img{border:0;}
+
+.all-wrap{
+	width:1200px;
+	margin:0 auto;
+	padding:0;
+	border:0;
+	position:relative;
+	display:block;
+}
+
+body section {
+	
+}
+
+body header {
+	width:1200px;
+	margin:0 auto;
+	padding:0;
+	border:0;
+	position:relative;
+	display:block;
+}
+
+section > article {
+
+}
+
+a:link {
+	color:#999;
+	text-decoration:none;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+	}
+
+a:visited {
+	color:#999;
+	text-decoration:none;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+	}
+
+a:hover {
+	color:#fbc002;
+	text-decoration:none;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+	}
+
+.menu {
+	
+	width:1000px;
+	height:100px;
+	position:absolute;
+	left:-225px;
+	top:20px;
+	margin-left:50%;
+}
+
+.menu .tbtn{
+	width:80px;
+	height:80px;
+	background:rgba(0,0,0,0.0);
+	top:0px;
+	left:0px;
+	text-align:center;
+	line-height:80px;
+	border-radius:80px;
+	display:block;
+}
+
+.menu #tbtn1{
+	top:0px;
+	left:0px;	
+	position:absolute;
+	z-index:2;
+}
+
+.menu #tbtn2{
+	top:0px;
+	left:160px;	
+	position:absolute;
+	z-index:2;
+}
+
+.menu #tbtn3{
+	top:0px;
+	left:320px;	
+	position:absolute;
+	z-index:2;
+}
+
+.menu #tbtn4{
+	top:0px;
+	left:480px;	
+	position:absolute;
+	z-index:2;
+}
+
+.menu #tbtn5{
+	top:0px;
+	left:640px;	
+	position:absolute;
+	z-index:2;
+}
+
+.menu .tbtnf{
+	width:80px;
+	height:80px;
+	background:url('../images/main/white-1044659_960_720.jpg');
+	display:block;
+	border-radius:80px;
+	opacity:0;
+}
+
+.menu #tbtnf1{
+	top:0px;
+	left:0px;	
+	position:absolute;
+	z-index:0;	
+}
+
+.menu #tbtnf2{
+	top:0px;
+	left:160px;	
+	position:absolute;
+	z-index:0;	
+}
+
+.menu #tbtnf3{
+	top:0px;
+	left:320px;	
+	position:absolute;
+	z-index:0;	
+}
+
+.menu #tbtnf4{
+	top:0px;
+	left:480px;	
+	position:absolute;
+	z-index:0;	
+}
+
+.menu #tbtnf5{
+	top:0px;
+	left:640px;	
+	position:absolute;
+	z-index:0;	
+}
+
+/* section > article img{
+	margin-left:50%;
+	left:-575px;
+	top:135px;
+	position:absolute;
+} */
+
+section > article >.filter {
+	width:1200px;
+	height:420px;
+	background:rgba(0,0,0,0.0);
+	margin-left:50%;
+	left:-600px;
+	top:135px;
+	position:absolute;
+}
+
+section > article >.intro_btn1 {
+	margin-left:50%;
+	left:-570px;
+	top:600px;
+	position:absolute;
+}
+
+section > article >.intro_btn1 ul{
+	width:275px;
+	height:87px;
+	list-style:none;
+	/* margin-left:50%; */
+	left:-6px;
+	top:0px;
+	position:absolute;
+	padding:0;
+	border:0;
+	
+}
+
+section > article >.intro_btn1 ul li a:link{
+	color:#33ccff;
+	text-decoration:none;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+
+}
+
+section > article >.intro_btn1 ul li a:visited{
+	color:#33ccff;
+	text-decoration:none;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+
+}
+
+section > article >.intro_btn1 ul li a:hover{
+	color:#ff99ff;
+	text-decoration:underline;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-weight:bold;
+
+}
+
+section > article >.intro_btn2 {
+	margin-left:50%;
+	left:-100px;
+	top:615px;
+	position:absolute;
+}
+
+section > article >.intro_btn2 .sum1{
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+
+section > article >.intro_btn2 .sum2{
+	left:150px;
+	top:5px;
+	position:absolute;
+	transform:rotate(0deg);
+	transition:0.3s; /*애니메이트 효과 300과 동일*/
+}
+
+section article .intro_btn2 #sump{
+	width:253px;
+	height:87px;
+	background:rgba(0,0,0,0);
+	top:0px;
+	left:0px;
+	position:absolute;
+	z-index:10;
+}
+
+section > article >.intro_btn3 {
+	margin-left:50%;
+	left:370px;
+	top:615px;
+	position:absolute;
+}
+
+section article .intro_btn3 .star2{
+	margin-left:0%;
+	left:110px;
+	top:55px;
+	position:absolute;
+	opacity:0;
+}
+
+section article .intro_btn3 .star{
+	width:253px;
+	height:87px;
+	background:rgba(0,0,0,0.0);
+	margin-left:0%;
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+
+body header  .topall{
+	width:1200px;
+	margin:0;
+	padding:0;
+	border:0;
+	position:relative;
+	display:block;
+}
+body header  .topall img{
+	margin-left:50%;
+	left:-450px;
+	top:15px;
+	position:absolute;
+}
+
+body header  .topall  .stroke {
+	width:1200px;
+	height:1px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin-left:50%;
+	left:-575px;
+	top:120px;
+	position:absolute;
+}
+
+footer {
+	margin-left:50%;
+	left:-575px;
+	top:770px;
+	position:absolute;	
+}
+
+footer > .stroke1 {
+	width:1200px;
+	height:1px;
+	border-bottom:1px solid #ccc;
+	margin-left:50%;
+	left:0px;
+	top:0px;
+	position:absolute;
+	}
+
+footer > .fooo {
+	width:1000px;
+	height:0px;
+	color:#999;
+	float:left;
+	position:absolute;
+	top:20px;
+	left:200px;
+	font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';
+	font-size:9pt;
+	font-style:normal;
+	font-weight:700;
+}
+
+footer > .fooo > address {
+
+
+}
+
+footer > .fooo1 {
+	float:left;
+	position:absolute;
+	top:10px;
+	left:100px;
+
+}
+
+/* #move {
+width:300%;
+	height:300px;
+	padding: 0px;
+    margin: 0px;	
+	width:1200px;
+	height:400px;
+	margin-left:50%;
+	left:-575px;
+	top:100px;
+	position:absolute;
+ 	overflow: hidden;
+}
+
+#move ul{
+    padding: 0px;
+    margin: 0px;	
+	width:1200px;
+	height:400px;
+	float:left;
+}
+
+#move ul li{
+	width:1200px;
+	height:400px;	
+	display:inline;
+	float:left;
+}
+
+#move ul li a img{
+	width:1200px;
+	height:400px;
+	border: none;
+} */
+
+
+/*
+ * Slideshow
+ */
+
+.slideshow {
+    margin-left:50%;
+	background-color: rgb(255,255,255);
+    height: 400px;
+	min-width: 1200px;
+    overflow: hidden;
+	/* margin-left:50%; */
+	top:160px;
+	left:-575px;
+	position: absolute;
+	
+}
+
+.slideshow-slides {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide img {
+	margin-left: 50%;
+	left: -600px;
+    top:0px;
+    position: absolute;
+}
+
+.slideshow-nav a,
+.slideshow-indicator a {
+    background-color: rgba(0, 0, 0, 0); /* for IE9 */
+    overflow: hidden;
+}
+.slideshow-nav a:before,
+.slideshow-indicator a:before {
+    content: url(../images/sprites.png);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.slideshow-nav a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 72px;
+    height: 72px;
+    margin-top: -36px;
+}
+.slideshow-nav a.prev {
+    margin-left: -600px;
+}
+.slideshow-nav a.prev:before {
+    margin-top: -20px;    
+}
+.slideshow-nav a.next {
+    margin-left: 408px;
+}
+.slideshow-nav a.next:before {
+    margin-left: -80px;
+    margin-top: -20px;
+}
+.slideshow-nav a.disabled {
+    display: none;
+}
+
+.slideshow-indicator {
+    bottom: 30px;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.slideshow-indicator a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.slideshow-indicator a.active {
+    cursor: default;
+}
+.slideshow-indicator a:before {
+    margin-left: -110px;
+}
+.slideshow-indicator a.active:before {
+    margin-left: -130px;
+}
+
+/* JavsScript 無効時 */
+.no-js .slideshow {
+    height: auto;
+}
+.no-js .slideshow-slides {
+    height: auto;
+    position: static;
+}
+.no-js .slideshow-slides .slide {
+    display: block;
+    height: auto;
+    position: static;
+}
+.no-js .slideshow-slides .slide img {
+    margin: auto;
+    position: static;
+}
+.no-js .slideshow-nav,
+.no-js .slideshow-indicator {
+    display: none;
+}

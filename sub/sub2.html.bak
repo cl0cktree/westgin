@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>안녕하세요.  열정커피예요.</title>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" type = "text/css" href="../css/sub3.css">
+		<link rel="stylesheet" href="../css/jquery.lightbox-0.5.css">
+		<style type="text/css">
+		</style>
+		<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.lightbox-0.5.js"></script>
+		<script type="text/javascript" src="../js/shop.js"></script>
+ 		<script type="text/javascript" src="../js/main2.js">
+		</script>		
+		<script type="text/javascript">
+				$(function(){
+					$('#right a').lightBox();
+				});
+		</script>	
+	</head>
+	<body>
+		<div class="all-wrap">
+		<header>
+			
+			<div id="" class="topall">
+				<h1>
+					<a href="../index.html"><img src="../images/logo2.png" width="104.3" height="92.4" border="0" alt=""></a>
+				</h1>
+				　　
+				<nav>
+					<div class="menu">
+						<a href="sub1.html"><div id="tbtn1" class="tbtn">회사소개</div><div id="tbtnf1" class="tbtnf"></div>
+							<div id="here1" class="here"></div>
+						</a>
+						<a href="sub2.html"><div id="tbtn2" class="tbtn">메뉴소개</div><div id="tbtnf2" class="tbtnf"></div>
+							<div id="here2" class="here"></div>
+						</a>　　　　　　
+						<a href="sub3.html"><div id="tbtn3" class="tbtn">매장안내</div><div id="tbtnf3" class="tbtnf"></div>
+							<div id="here3" class="here"></div>
+						</a>　　　　　　
+						<a href="sub4.html"><div id="tbtn4" class="tbtn">가맹안내</div><div id="tbtnf4" class="tbtnf"></div>
+							<div id="here4" class="here"></div>
+						</a>　　　　　　
+						<a href="sub5.html"><div id="tbtn5" class="tbtn">고객게시판</div><div id="tbtnf5" class="tbtnf"></div>
+							<div id="here5" class="here"></div>
+						</a>
+					</div>
+				</nav>
+				<div class="stroke">
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<article>
+				<div id="right" class="right">
+					<div id="" class="menutitle">
+						<img src="../images/sub2/menutitle2.png" width="389" height="47" border="0" alt="">
+					</div>
+					<div id="" class="right1">
+						<img src="../images/sub2/menu1.png" width="382" height="26" border="0" alt="">
+						<ul>
+							<li><a href="../images/sub2/ame/coffe1.jpg"><img src="../images/sub2/ame/coffe1.jpg" width="210" height="180" border="0" alt="">아메리카노 1500/2500</a></li>
+							<li><a href="../images/sub2/ame/coffe2.jpg"><img src="../images/sub2/ame/coffe2.jpg" width="210" height="180" border="0" alt="">카페라떼 2800/3800</a></li>
+							<li><a href="../images/sub2/ame/coffe3.jpg"><img src="../images/sub2/ame/coffe3.jpg" width="210" height="180" border="0" alt="">카라멜마끼아또 3500/4500</a></li>
+							<li><a href="../images/sub2/ame/coffe4.jpg"><img src="../images/sub2/ame/coffe4.jpg" width="210" height="180" border="0" alt="">카페모카 3500/4500</a></li>
+							<li><a href="../images/sub2/ame/coffe5.jpg"><img src="../images/sub2/ame/coffe5.jpg" width="210" height="180" border="0" alt="">바닐라라떼 3500/4500</a></li>
+							<li><a href="../images/sub2/ame/coffe6.jpg"><img src="../images/sub2/ame/coffe6.jpg" width="210" height="180" border="0" alt="">허니라떼 3800/4800</a></li>
+						</ul>
+					</div>
+					
+					<div id="" class="right2">
+						<img src="../images/sub2/menu2.png" width="382" height="26" border="0" alt="">
+						<ul>
+							<li><a href="../images/sub2/pra/eses1.jpg"><img src="../images/sub2/pra/eses1.jpg" width="210" height="180" border="0" alt="">별사탕 프라페 4500</a></li>
+							<li><a href="../images/sub2/pra/oreo1.jpg"><img src="../images/sub2/pra/oreo1.jpg" width="210" height="180" border="0" alt="">오레오 프라페 4500</a></li>
+							<li><a href="../images/sub2/pra/chip.jpg"><img src="../images/sub2/pra/chip.jpg" width="210" height="180" border="0" alt="">자바칩 프라페 4500</a></li>
+							<li><a href="../images/sub2/pra/cherry.jpg"><img src="../images/sub2/pra/cherry.jpg" width="210" height="180" border="0" alt="">체리베리 프라페 4500</a></li>
+							<li><a href="../images/sub2/pra/chiz.jpg"><img src="../images/sub2/pra/chiz.jpg" width="210" height="180" border="0" alt="">까망베르치즈 프라페 4500</a></li>
+							<li><a href="../images/sub2/pra/pista.jpg"><img src="../images/sub2/pra/pista.jpg" width="210" height="180" border="0" alt="">피스타치오 프라페 4500</a></li>
+						</ul>
+					</div>
+					
+					<div id="" class="right3">
+						<img src="../images/sub2/menu3.png" width="382" height="26" border="0" alt="">
+						<div class="right3_1"><div id="" class="r33">	베이글+크림치즈 = 3500</div></div>
+						<ul class="cream">
+							<li><a href="../images/sub2/cnb/creamm1.jpg"><img src="../images/sub2/cnb/creamm1.jpg" width="210" height="180" border="0" alt="">플레인 크림치즈</a></li>
+							<li><a href="../images/sub2/cnb/creamm6.jpg"><img src="../images/sub2/cnb/creamm6.jpg" width="210" height="180" border="0" alt="">누텔라크런키 크림치즈</a></li>
+							<li><a href="../images/sub2/cnb/creamm2.jpg"><img src="../images/sub2/cnb/creamm2.jpg" width="210" height="180" border="0" alt="">어니언 크림치즈</a></li>
+							<li><a href="../images/sub2/cnb/creamm3.jpg"><img src="../images/sub2/cnb/creamm3.jpg" width="210" height="180" border="0" alt="">허브갈릭 크림치즈</a></li>
+							<li><a href="../images/sub2/cnb/creamm5.jpg"><img src="../images/sub2/cnb/creamm5.jpg" width="210" height="180" border="0" alt="">블루베리 크림치즈</a></li>
+							<li><a href="../images/sub2/cnb/creamm4.jpg"><img src="../images/sub2/cnb/creamm4.jpg" width="210" height="180" border="0" alt="">애플망고 크림</a></li>
+							
+						</ul>
+						<ul class="beig">
+							<li><a href="../images/sub2/cnb/baglee1.jpg"><img src="../images/sub2/cnb/baglee1.jpg" width="210" height="180" border="0" alt="">플레인 베이글  3500</a></li>
+							<li><a href="../images/sub2/cnb/baglee2.jpg"><img src="../images/sub2/cnb/baglee2.jpg" width="210" height="180" border="0" alt="">블랙 베이글  3500</a></li>
+							<li><a href="../images/sub2/cnb/baglee3.jpg"><img src="../images/sub2/cnb/baglee3.jpg" width="210" height="180" border="0" alt="">그린티 베이글  3500</a></li>
+							<li><a href="../images/sub2/크림치즈베이글/baglee4.jpg"><img src="../images/sub2/cnb/baglee4.jpg" width="210" height="180" border="0" alt="">블루베리 베이글  3500</a></li>
+							<li><a href="../images/sub2/크림치즈베이글/baglee5.jpg"><img src="../images/sub2/cnb/baglee5.jpg" width="210" height="180" border="0" alt="">크랜베리 베이글  3500</a></li>
+							 
+						</ul>						
+					</div>
+					
+					<div id="" class="right4">
+						<img src="../images/sub2/menu4.png" width="382" height="26" border="0" alt="">
+						<ul>
+							<li><a href="../images/sub2/ade/bluelemon.jpg"><img src="../images/sub2/ade/bluelemon.jpg" width="210" height="180" border="0" alt="">블루자몽 에이드  4800</a></li>
+							<li><a href="../images/sub2/ade/eyeem-40235402.jpg"><img src="../images/sub2/ade/eyeem-40235402.jpg" width="210" height="180" border="0" alt="">레드자몽 에이드  4800</a></li>
+							<li><a href="../images/sub2/ade/adad4.jpg"><img src="../images/sub2/ade/adad4.jpg" width="210" height="180" border="0" alt="">오렌지 에이드  4800</a></li>
+						</ul>						
+					</div>
+					
+					<div id="" class="right5">
+						<img src="../images/sub2/menu5.png" width="382" height="26" border="0" alt="">
+						<ul>
+							<li><a href="../images/sub2/non/choco.jpg"><img src="../images/sub2/non/choco.jpg" width="210" height="180" border="0" alt="">초콜릿 3800/3800</a></li>
+							<li><a href="../images/sub2/non/green.jpg"><img src="../images/sub2/non/green.jpg" width="210" height="180" border="0" alt="">녹차라떼 3800/3800</a></li>
+							<li><a href="../images/sub2/non/goguma.jpg"><img src="../images/sub2/non/goguma.jpg" width="210" height="180" border="0" alt="">고구마라떼 3800</a></li>
+						</ul>						
+					</div>
+					
+					<div id="" class="right6">
+						<img src="../images/sub2/menu6.png" width="382" height="26" border="0" alt="">
+						<ul>
+							<li><a href="../images/sub2/kor/spe0.jpg"><img src="../images/sub2/kor/spe0.jpg" width="210" height="180" border="0" alt="">얼음식혜 2500</a></li>
+							<li><a href="../images/sub2/kor/spe1.jpg"><img src="../images/sub2/kor/spe1.jpg" width="210" height="180" border="0" alt="">얼음 수정과 2500</a></li>
+							<li><a href="../images/sub2/kor/spe2.jpg"><img src="../images/sub2/kor/spe2.jpg" width="210" height="180" border="0" alt="">유자차 2800/2800</a></li>
+							<li><a href="../images/sub2/kor/spe3.jpg"><img src="../images/sub2/kor/spe3.jpg" width="210" height="180" border="0" alt="">17곡 미숫가루 4500/4500</a></li>
+						</ul>						
+					</div>
+				
+				</div>
+			</article>
+			
+			<article>
+				<div id="" class="left">
+					<div id="" class="left1">
+						메뉴소개
+					</div>
+					<!-- <img src="../images/sub1/2_11.gif" width="118" height="571" border="0" alt=""> -->
+					<div id="scall" class="">
+						<div id="sc1" class="left2">
+							오늘은<br>
+							무엇을<br>
+							드시고<br>
+							싶으세요<br>
+							?<br>
+						</div>
+						<div id="sc2" class="left2">
+							어떤<br>
+							메뉴를<br>
+							드셔도<br>
+							맛있습니다<br>
+							.<br>
+						</div>
+						<div id="sc3" class="left2">
+							즐거운<br>
+							시간이<br>
+							되시도록<br>
+							노력합니다<br>
+							.<br>
+						</div>
+					</div>				
+				</div>
+				<script type="text/javascript">
+				<!--
+					var showImg, nextImg ;
+					function fadeInOut(){
+			
+					showImg = $('#scall div:eq(0)');
+					nextImg = $('#scall div:eq(0)');
+					nextImg.addClass('first');
+					nextImg.css('opacity','0').animate({'opacity':'1'},1000,
+					function(){
+					$('#scall').append(showImg);
+					showImg.removeClass('first');});
+				
+				};
+					
+					var timer = setInterval('fadeInOut()','3000');
+					
+					$("div#scall").hover(
+						function(){
+							clearInterval(timer)
+					},function(){
+							timer = setInterval('fadeInOut()','3000');
+							});
+				//-->
+				</script>			
+			</article>
+		</section>
+		<footer>
+			
+				<div id="" class="foot1">
+					<div class="stroke1"></div>
+					<div class="fooo1"><a href="../index.html"><img src="../images/foo.jpg" alt="" /></a></div>
+					<address class="fooo2">서울특별시 중랑구 상봉동 72 망우역 내 1층 열정커피 TEL:  010-4175-0532　　FAX: 02-2226-3325　　사업자등록번호: 120-88-20201　상표출원번호: 41-2014-0047866 Copyright 2014 sinchangfood All Rights Resered</address>
+				</div>
+		</footer>
+		</div>
+	</body>
+</html>

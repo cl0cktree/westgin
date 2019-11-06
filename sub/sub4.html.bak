@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>안녕하세요.  열정커피예요.</title>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" type = "text/css" href="../css/sub4.css">
+		<style type="text/css">
+		</style>
+		<script type="text/javascript" src="../js/jquery-2.1.4.min.js">
+		</script>
+ 		<script type="text/javascript" src="../js/main2.js">
+		</script>	
+	</head>
+	<body>
+		<div class="all-wrap">
+		<header>
+			
+			<div id="" class="topall">
+				<h1>
+					<a href="../index.html"><img src="../images/logo2.png" width="104.3" height="92.4" border="0" alt=""></a>
+				</h1>
+				　　
+				<nav>
+					<div class="menu">
+						<a href="sub1.html"><div id="tbtn1" class="tbtn">회사소개</div><div id="tbtnf1" class="tbtnf"></div>
+							<div id="here1" class="here"></div>
+						</a>
+						<a href="sub2.html"><div id="tbtn2" class="tbtn">메뉴소개</div><div id="tbtnf2" class="tbtnf"></div>
+							<div id="here2" class="here"></div>
+						</a>　　　　　　
+						<a href="sub3.html"><div id="tbtn3" class="tbtn">매장안내</div><div id="tbtnf3" class="tbtnf"></div>
+							<div id="here3" class="here"></div>
+						</a>　　　　　　
+						<a href="sub4.html"><div id="tbtn4" class="tbtn">가맹안내</div><div id="tbtnf4" class="tbtnf"></div>
+							<div id="here4" class="here"></div>
+						</a>　　　　　　
+						<a href="sub5.html"><div id="tbtn5" class="tbtn">고객게시판</div><div id="tbtnf5" class="tbtnf"></div>
+							<div id="here5" class="here"></div>
+						</a>
+					</div>
+				</nav>
+				<div class="stroke">
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<article>
+				<div id="" class="right">
+					<div id="" class="right2">
+						<img src="../images/sub4/text.jpg">
+					</div>
+					<div class="right2_1">
+						<img src="../images/sub4/text1.jpg" alt="" />
+					</div>
+				</div>
+				<div class="stroke2">
+				</div>
+				<div class="right_stroke">
+				</div>
+				<div class="right_center">
+						<img src="../images/sub4/text2.jpg" width="900" height="720">
+				</div>
+			</article>
+			<article>
+				<div id="" class="left">
+					<div id="" class="left1">
+						가맹문의
+					</div>
+					<!-- <img src="../images/sub1/2_11.gif" width="118" height="571" border="0" alt=""> -->
+					<div id="scall1" class="">
+						<div id="sc1" class="left2">
+							가진것이<br>
+							없어도<br>
+							열정이<br>
+							있다면<br>
+							뭐든지<br>
+							할수<br>
+							있어요<br>
+							.<br>
+						</div>
+						<div id="sc2" class="left3">
+							최소한의<br>
+							금액으로<br>
+							시작하는<br>
+							열정의<br>
+							시작<br>
+							.<br>
+						</div>
+						<div id="sc3" class="left4">
+							즐기듯<br>
+							일하면<br>
+							열정은<br>
+							덤<br>
+							.<br>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					<!--
+						var showImg, nextImg ;
+						function fadeInOut(){
+				
+						showImg = $('#scall1 div:eq(0)');
+						nextImg = $('#scall1 div:eq(0)');
+						nextImg.addClass('first');
+						nextImg.css('opacity','0').animate({'opacity':'1'},1000,
+						function(){
+						$('#scall1').append(showImg);
+						showImg.removeClass('first');});
+					
+					};
+						
+						var timer = setInterval('fadeInOut()','3000');
+						
+						$("div#scall1").hover(
+							function(){
+								clearInterval(timer)
+						},function(){
+								timer = setInterval('fadeInOut()','3000');
+								});
+					//-->
+				</script>
+			</article>			
+		
+		</section>
+		<footer>
+			
+				<div id="" class="foot1">
+					<div class="stroke1"></div>
+					<div class="fooo1"><a href="../index.html"><img src="../images/foo.jpg" alt="" /></a></div>
+					<address class="fooo2">서울특별시 중랑구 상봉동 72 망우역 내 1층 열정커피 TEL:  010-4175-0532　　FAX: 02-2226-3325　　사업자등록번호: 120-88-20201　상표출원번호: 41-2014-0047866 Copyright 2014 sinchangfood All Rights Resered</address>
+				</div>
+			
+		</footer>
+		</div>
+	</body>
+</html>
